@@ -3,11 +3,11 @@
 const config = {
     github: {
         username: 'M-Hidayatullah', // Your GitHub org/user name. (Required)
-        sortBy: 'stars', // stars | updated
-        limit: 10, // How many projects to display.
+        sortBy: 'updated', // stars | updated
+        limit: 30, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
-            projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: ['gitprofile', 'M-Hidayatullah'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
         },
     },
     social: {
@@ -16,12 +16,12 @@ const config = {
         mastodon: '',
         facebook: '',
         instagram: '',
-        youtube: '', // example: 'pewdiepie'
+        youtube: 'dayattttt', // example: 'pewdiepie'
         dribbble: '',
         behance: '',
         medium: 'muhammadhidayatullah',
         dev: '',
-        stackoverflow: '', // example: '1/jeff-atwood'
+        stackoverflow: '17076821/muhammad-hidayatullah', // example: '1/jeff-atwood'
         skype: '',
         telegram: '',
         website: '',
@@ -29,7 +29,7 @@ const config = {
         email: 'hidayatullahblk@gmail.com',
     },
     resume: {
-        fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+        fileUrl: 'https://drive.google.com/file/d/10s_WFgaW5r383DfKCoJkhrejXinXME74/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
     },
     skills: [
         'PHP',
